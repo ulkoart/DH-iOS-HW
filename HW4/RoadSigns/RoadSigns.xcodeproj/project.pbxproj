@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2CBF0F27059EB40094FF8B /* screenshot3.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2CBF0C27059EB40094FF8B /* screenshot3.png */; };
+		CE2CBF1027059EB40094FF8B /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2CBF0D27059EB40094FF8B /* screenshot2.png */; };
+		CE2CBF1127059EB40094FF8B /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2CBF0E27059EB40094FF8B /* screenshot1.png */; };
+		CE8E80DF27022E4300AE066D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E80DE27022E4300AE066D /* AppDelegate.m */; };
+		CE8E80E527022E4300AE066D /* RSListController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E80E427022E4300AE066D /* RSListController.m */; };
+		CE8E80EA27022E4400AE066D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8E80E927022E4400AE066D /* Assets.xcassets */; };
+		CE8E80ED27022E4400AE066D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8E80EB27022E4400AE066D /* LaunchScreen.storyboard */; };
+		CE8E80F027022E4400AE066D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E80EF27022E4400AE066D /* main.m */; };
+		CE8E80FD2702328700AE066D /* RSRoadSign.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E80FC2702328700AE066D /* RSRoadSign.m */; };
+		CE8E81012702452700AE066D /* RoadSignsService.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E81002702452700AE066D /* RoadSignsService.m */; };
+		CE8E81052702566600AE066D /* RoadSingViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E81042702566600AE066D /* RoadSingViewCell.m */; };
+		CEC883EC2704709F008A1525 /* RoadSignsListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC883EB2704709F008A1525 /* RoadSignsListPresenter.m */; };
+		CEC883EF27047E92008A1525 /* RSDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC883EE27047E92008A1525 /* RSDetailController.m */; };
+		CEC883F32704D1C8008A1525 /* RSPeculiaritiesController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC883F22704D1C8008A1525 /* RSPeculiaritiesController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE2CBF0927059BEE0094FF8B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE2CBF0C27059EB40094FF8B /* screenshot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot3.png; path = ../../../../../../../Desktop/screenshot3.png; sourceTree = "<group>"; };
+		CE2CBF0D27059EB40094FF8B /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot2.png; path = ../../../../../../../Desktop/screenshot2.png; sourceTree = "<group>"; };
+		CE2CBF0E27059EB40094FF8B /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot1.png; path = ../../../../../../../Desktop/screenshot1.png; sourceTree = "<group>"; };
+		CE8E80DA27022E4300AE066D /* RoadSigns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadSigns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8E80DD27022E4300AE066D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE8E80DE27022E4300AE066D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE8E80E327022E4300AE066D /* RSListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSListController.h; sourceTree = "<group>"; };
+		CE8E80E427022E4300AE066D /* RSListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSListController.m; sourceTree = "<group>"; };
+		CE8E80E927022E4400AE066D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE8E80EC27022E4400AE066D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE8E80EE27022E4400AE066D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8E80EF27022E4400AE066D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE8E80FB2702328700AE066D /* RSRoadSign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSRoadSign.h; sourceTree = "<group>"; };
+		CE8E80FC2702328700AE066D /* RSRoadSign.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSRoadSign.m; sourceTree = "<group>"; };
+		CE8E80FF2702452700AE066D /* RoadSignsService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoadSignsService.h; sourceTree = "<group>"; };
+		CE8E81002702452700AE066D /* RoadSignsService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoadSignsService.m; sourceTree = "<group>"; };
+		CE8E81032702566600AE066D /* RoadSingViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoadSingViewCell.h; sourceTree = "<group>"; };
+		CE8E81042702566600AE066D /* RoadSingViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoadSingViewCell.m; sourceTree = "<group>"; };
+		CEC883EA2704709F008A1525 /* RoadSignsListPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoadSignsListPresenter.h; sourceTree = "<group>"; };
+		CEC883EB2704709F008A1525 /* RoadSignsListPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoadSignsListPresenter.m; sourceTree = "<group>"; };
+		CEC883ED27047E92008A1525 /* RSDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSDetailController.h; sourceTree = "<group>"; };
+		CEC883EE27047E92008A1525 /* RSDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDetailController.m; sourceTree = "<group>"; };
+		CEC883F12704D1C8008A1525 /* RSPeculiaritiesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSPeculiaritiesController.h; sourceTree = "<group>"; };
+		CEC883F22704D1C8008A1525 /* RSPeculiaritiesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSPeculiaritiesController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8E80D727022E4200AE066D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1D222D270469E100FF419C /* RoadSignsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				CEC883ED27047E92008A1525 /* RSDetailController.h */,
+				CEC883EE27047E92008A1525 /* RSDetailController.m */,
+			);
+			path = RoadSignsDetail;
+			sourceTree = "<group>";
+		};
+		CE2CBF0B27059E960094FF8B /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				CE2CBF0E27059EB40094FF8B /* screenshot1.png */,
+				CE2CBF0D27059EB40094FF8B /* screenshot2.png */,
+				CE2CBF0C27059EB40094FF8B /* screenshot3.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+		CE8E80D127022E4200AE066D = {
+			isa = PBXGroup;
+			children = (
+				CE2CBF0B27059E960094FF8B /* Screenshots */,
+				CE2CBF0927059BEE0094FF8B /* README.md */,
+				CE8E80DC27022E4300AE066D /* RoadSigns */,
+				CE8E80DB27022E4300AE066D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8E80DB27022E4300AE066D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E80DA27022E4300AE066D /* RoadSigns.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8E80DC27022E4300AE066D /* RoadSigns */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E80F92702321000AE066D /* Model */,
+				CE8E80F627022EBC00AE066D /* Screens */,
+				CE8E80FE2702367F00AE066D /* Services */,
+				CE8E80F727022F0600AE066D /* Supporting Files */,
+			);
+			path = RoadSigns;
+			sourceTree = "<group>";
+		};
+		CE8E80F627022EBC00AE066D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E80F82702303500AE066D /* RoadSignsList */,
+				CE1D222D270469E100FF419C /* RoadSignsDetail */,
+				CEC883F02704D196008A1525 /* RoadSignsPeculiarities */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CE8E80F727022F0600AE066D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E80DD27022E4300AE066D /* AppDelegate.h */,
+				CE8E80DE27022E4300AE066D /* AppDelegate.m */,
+				CE8E80EF27022E4400AE066D /* main.m */,
+				CE8E80EE27022E4400AE066D /* Info.plist */,
+				CE8E80E927022E4400AE066D /* Assets.xcassets */,
+				CE8E80EB27022E4400AE066D /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE8E80F82702303500AE066D /* RoadSignsList */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E80E327022E4300AE066D /* RSListController.h */,
+				CE8E80E427022E4300AE066D /* RSListController.m */,
+				CEC883EA2704709F008A1525 /* RoadSignsListPresenter.h */,
+				CEC883EB2704709F008A1525 /* RoadSignsListPresenter.m */,
+				CE8E81022702563A00AE066D /* cell */,
+			);
+			path = RoadSignsList;
+			sourceTree = "<group>";
+		};
+		CE8E80F92702321000AE066D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E80FB2702328700AE066D /* RSRoadSign.h */,
+				CE8E80FC2702328700AE066D /* RSRoadSign.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE8E80FE2702367F00AE066D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E80FF2702452700AE066D /* RoadSignsService.h */,
+				CE8E81002702452700AE066D /* RoadSignsService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CE8E81022702563A00AE066D /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E81032702566600AE066D /* RoadSingViewCell.h */,
+				CE8E81042702566600AE066D /* RoadSingViewCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		CEC883F02704D196008A1525 /* RoadSignsPeculiarities */ = {
+			isa = PBXGroup;
+			children = (
+				CEC883F12704D1C8008A1525 /* RSPeculiaritiesController.h */,
+				CEC883F22704D1C8008A1525 /* RSPeculiaritiesController.m */,
+			);
+			path = RoadSignsPeculiarities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8E80D927022E4200AE066D /* RoadSigns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8E80F327022E4400AE066D /* Build configuration list for PBXNativeTarget "RoadSigns" */;
+			buildPhases = (
+				CE8E80D627022E4200AE066D /* Sources */,
+				CE8E80D727022E4200AE066D /* Frameworks */,
+				CE8E80D827022E4200AE066D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoadSigns;
+			productName = RoadSigns;
+			productReference = CE8E80DA27022E4300AE066D /* RoadSigns.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8E80D227022E4200AE066D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CE8E80D927022E4200AE066D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = CE8E80D527022E4200AE066D /* Build configuration list for PBXProject "RoadSigns" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8E80D127022E4200AE066D;
+			productRefGroup = CE8E80DB27022E4300AE066D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8E80D927022E4200AE066D /* RoadSigns */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8E80D827022E4200AE066D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2CBF0F27059EB40094FF8B /* screenshot3.png in Resources */,
+				CE8E80ED27022E4400AE066D /* LaunchScreen.storyboard in Resources */,
+				CE2CBF1027059EB40094FF8B /* screenshot2.png in Resources */,
+				CE8E80EA27022E4400AE066D /* Assets.xcassets in Resources */,
+				CE2CBF1127059EB40094FF8B /* screenshot1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8E80D627022E4200AE066D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8E80FD2702328700AE066D /* RSRoadSign.m in Sources */,
+				CE8E80E527022E4300AE066D /* RSListController.m in Sources */,
+				CEC883EC2704709F008A1525 /* RoadSignsListPresenter.m in Sources */,
+				CEC883EF27047E92008A1525 /* RSDetailController.m in Sources */,
+				CE8E80DF27022E4300AE066D /* AppDelegate.m in Sources */,
+				CE8E81052702566600AE066D /* RoadSingViewCell.m in Sources */,
+				CE8E81012702452700AE066D /* RoadSignsService.m in Sources */,
+				CE8E80F027022E4400AE066D /* main.m in Sources */,
+				CEC883F32704D1C8008A1525 /* RSPeculiaritiesController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE8E80EB27022E4400AE066D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8E80EC27022E4400AE066D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE8E80F127022E4400AE066D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE8E80F227022E4400AE066D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8E80F427022E4400AE066D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PQNZ2TUC3;
+				INFOPLIST_FILE = "RoadSigns/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulkoart.RoadSigns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE8E80F527022E4400AE066D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PQNZ2TUC3;
+				INFOPLIST_FILE = "RoadSigns/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ulkoart.RoadSigns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8E80D527022E4200AE066D /* Build configuration list for PBXProject "RoadSigns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8E80F127022E4400AE066D /* Debug */,
+				CE8E80F227022E4400AE066D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8E80F327022E4400AE066D /* Build configuration list for PBXNativeTarget "RoadSigns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8E80F427022E4400AE066D /* Debug */,
+				CE8E80F527022E4400AE066D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8E80D227022E4200AE066D /* Project object */;
+}
