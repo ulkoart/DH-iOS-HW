@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2CBF0F27059EB40094FF8B /* screenshot3.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2CBF0C27059EB40094FF8B /* screenshot3.png */; };
+		CE2CBF1027059EB40094FF8B /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2CBF0D27059EB40094FF8B /* screenshot2.png */; };
+		CE2CBF1127059EB40094FF8B /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2CBF0E27059EB40094FF8B /* screenshot1.png */; };
 		CE8E80DF27022E4300AE066D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E80DE27022E4300AE066D /* AppDelegate.m */; };
 		CE8E80E527022E4300AE066D /* RSListController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E80E427022E4300AE066D /* RSListController.m */; };
 		CE8E80EA27022E4400AE066D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8E80E927022E4400AE066D /* Assets.xcassets */; };
@@ -21,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE2CBF0927059BEE0094FF8B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE2CBF0C27059EB40094FF8B /* screenshot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot3.png; path = ../../../../../../../Desktop/screenshot3.png; sourceTree = "<group>"; };
+		CE2CBF0D27059EB40094FF8B /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot2.png; path = ../../../../../../../Desktop/screenshot2.png; sourceTree = "<group>"; };
+		CE2CBF0E27059EB40094FF8B /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot1.png; path = ../../../../../../../Desktop/screenshot1.png; sourceTree = "<group>"; };
 		CE8E80DA27022E4300AE066D /* RoadSigns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadSigns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8E80DD27022E4300AE066D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE8E80DE27022E4300AE066D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,9 +71,21 @@
 			path = RoadSignsDetail;
 			sourceTree = "<group>";
 		};
+		CE2CBF0B27059E960094FF8B /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				CE2CBF0E27059EB40094FF8B /* screenshot1.png */,
+				CE2CBF0D27059EB40094FF8B /* screenshot2.png */,
+				CE2CBF0C27059EB40094FF8B /* screenshot3.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		CE8E80D127022E4200AE066D = {
 			isa = PBXGroup;
 			children = (
+				CE2CBF0B27059E960094FF8B /* Screenshots */,
+				CE2CBF0927059BEE0094FF8B /* README.md */,
 				CE8E80DC27022E4300AE066D /* RoadSigns */,
 				CE8E80DB27022E4300AE066D /* Products */,
 			);
@@ -218,8 +237,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2CBF0F27059EB40094FF8B /* screenshot3.png in Resources */,
 				CE8E80ED27022E4400AE066D /* LaunchScreen.storyboard in Resources */,
+				CE2CBF1027059EB40094FF8B /* screenshot2.png in Resources */,
 				CE8E80EA27022E4400AE066D /* Assets.xcassets in Resources */,
+				CE2CBF1127059EB40094FF8B /* screenshot1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
