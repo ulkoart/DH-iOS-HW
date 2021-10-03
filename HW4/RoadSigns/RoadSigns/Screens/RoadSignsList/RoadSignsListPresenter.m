@@ -19,8 +19,10 @@
     return self;
 }
 
-- (void)loadData {
-    self.view.roadSigns = [self.roadSignsService getRoadSigns];
+- (void)loadDataWithComplition:(void(^)(NSUInteger)) complition {
+    NSArray<RSRoadSign *> * soadSigns = [self.roadSignsService getRoadSigns];
+    self.view.roadSigns = soadSigns;
+    complition(soadSigns.count);
 }
 
 @end
