@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0F57622709D4A0003FEAD6 /* CheckServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F57612709D4A0003FEAD6 /* CheckServer.swift */; };
 		CE4EAF6C2709CF1000C86C8E /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EAF692709CF1000C86C8E /* screenshot2.png */; };
 		CE4EAF6D2709CF1000C86C8E /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EAF6A2709CF1000C86C8E /* screenshot1.png */; };
 		CE4EAF6E2709CF1000C86C8E /* screenshot3.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EAF6B2709CF1000C86C8E /* screenshot3.png */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE0F57612709D4A0003FEAD6 /* CheckServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckServer.swift; sourceTree = "<group>"; };
 		CE2CBF0927059BEE0094FF8B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE4EAF692709CF1000C86C8E /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
 		CE4EAF6A2709CF1000C86C8E /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			children = (
 				CE8E80FF2702452700AE066D /* RoadSignsService.h */,
 				CE8E81002702452700AE066D /* RoadSignsService.m */,
+				CE0F57612709D4A0003FEAD6 /* CheckServer.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				TargetAttributes = {
 					CE8E80D927022E4200AE066D = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -257,6 +261,7 @@
 				CEC883EC2704709F008A1525 /* RoadSignsListPresenter.m in Sources */,
 				CEC883EF27047E92008A1525 /* RSDetailController.m in Sources */,
 				CE8E80DF27022E4300AE066D /* AppDelegate.m in Sources */,
+				CE0F57622709D4A0003FEAD6 /* CheckServer.swift in Sources */,
 				CE8E81052702566600AE066D /* RoadSingViewCell.m in Sources */,
 				CE8E81012702452700AE066D /* RoadSignsService.m in Sources */,
 				CE8E80F027022E4400AE066D /* main.m in Sources */,
@@ -395,6 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PQNZ2TUC3;
 				INFOPLIST_FILE = "RoadSigns/Supporting Files/Info.plist";
@@ -405,6 +411,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ulkoart.RoadSigns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -414,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PQNZ2TUC3;
 				INFOPLIST_FILE = "RoadSigns/Supporting Files/Info.plist";
@@ -424,6 +433,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ulkoart.RoadSigns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

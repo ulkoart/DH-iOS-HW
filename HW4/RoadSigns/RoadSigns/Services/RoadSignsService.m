@@ -7,12 +7,15 @@
 
 #import "RoadSignsService.h"
 #import "RSRoadSign.h"
+#import "RoadSigns-Swift.h"
 
 @implementation RoadSignsService
 
 - (NSArray<RSRoadSign *> *) getRoadSigns {
     
-    NSArray *roadSignsArray;
+    CheckServer *checkServer = [[CheckServer alloc] init];
+
+    NSArray<RSRoadSign *> *roadSignsArray;
     roadSignsArray = [NSArray arrayWithObjects:
                       [[RSRoadSign alloc]initWithTitle:@"Железнодорожный переезд со шлагбаумом"
                                         roadSignNumber:@"1.1"
@@ -116,8 +119,12 @@
                                  roadSignPeculiarities:@"1. От действия знака отступают маршрутные транспортные средства.\n2. Зона действия знака распространяется на пересечение проезжих частей, перед которыми установлен знак (на первое пересечение за знаком)."
                                 andRoadSignDescription:@"Разрешается движение только прямо или направо."],
                       nil];
+    if ([checkServer getServerStatus]) {
+        return roadSignsArray;
+    } else {
+        return [[NSArray<RSRoadSign *> alloc] init];
+    }
     
-    return roadSignsArray;
 }
 
 @end
