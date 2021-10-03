@@ -11,10 +11,9 @@
 
 @implementation RoadSignsService
 
-- (NSArray<RSRoadSign *> *) getRoadSigns {
-    
+- (NSArray<RSRoadSign *> *) getRoadSigns {    
     CheckServer *checkServer = [[CheckServer alloc] init];
-
+    
     NSArray<RSRoadSign *> *roadSignsArray;
     roadSignsArray = [NSArray arrayWithObjects:
                       [[RSRoadSign alloc]initWithTitle:@"Железнодорожный переезд со шлагбаумом"

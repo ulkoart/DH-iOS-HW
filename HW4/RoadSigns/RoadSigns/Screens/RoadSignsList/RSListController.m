@@ -30,7 +30,19 @@ NSString *tableViewCellIdentifier = @"roadSignCell";
 }
 
 -(void) getData {
-    [self.presenter loadData];
+    // Задание 6 Использовать блоки в коде проекта
+    typedef void (^ComplitionBlockType)(NSUInteger);
+
+    ComplitionBlockType complitionBlock = ^(NSUInteger count) {
+        NSLog(@"loaded - %ld road signs", count);
+    };
+    
+     //без typedef
+//        void (^complitionBlock)(NSUInteger) = ^(NSUInteger count) {
+//            NSLog(@"loaded - %ld road signs", count);
+//        };
+    
+    [self.presenter loadDataWithComplition:complitionBlock];
 }
 
 - (void) setupUI {

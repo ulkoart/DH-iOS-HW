@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RoadSingViewCell : UITableViewCell
 
- - (void) setupWithRoadSign:(RSRoadSign *) roadSign;
+- (void) setupWithRoadSign:(RSRoadSign *) roadSign;
 
 @end
 

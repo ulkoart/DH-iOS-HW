@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) RSListController *view;
 
 - (instancetype)initWithView:(UIViewController *)view;
-- (void)loadData;
+- (void)loadDataWithComplition:(void(^)(NSUInteger))complition;;
 
 @end
 
