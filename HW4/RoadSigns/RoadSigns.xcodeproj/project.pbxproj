@@ -11,6 +11,7 @@
 		CE4EAF6C2709CF1000C86C8E /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EAF692709CF1000C86C8E /* screenshot2.png */; };
 		CE4EAF6D2709CF1000C86C8E /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EAF6A2709CF1000C86C8E /* screenshot1.png */; };
 		CE4EAF6E2709CF1000C86C8E /* screenshot3.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4EAF6B2709CF1000C86C8E /* screenshot3.png */; };
+		CE7027DB270ADF4D0039E8EB /* RoadSignsServiceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7027DA270ADF4D0039E8EB /* RoadSignsServiceProxy.m */; };
 		CE8E80DF27022E4300AE066D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E80DE27022E4300AE066D /* AppDelegate.m */; };
 		CE8E80E527022E4300AE066D /* RSListController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8E80E427022E4300AE066D /* RSListController.m */; };
 		CE8E80EA27022E4400AE066D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8E80E927022E4400AE066D /* Assets.xcassets */; };
@@ -30,6 +31,8 @@
 		CE4EAF692709CF1000C86C8E /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
 		CE4EAF6A2709CF1000C86C8E /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
 		CE4EAF6B2709CF1000C86C8E /* screenshot3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot3.png; sourceTree = "<group>"; };
+		CE7027D9270ADF4D0039E8EB /* RoadSignsServiceProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoadSignsServiceProxy.h; sourceTree = "<group>"; };
+		CE7027DA270ADF4D0039E8EB /* RoadSignsServiceProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoadSignsServiceProxy.m; sourceTree = "<group>"; };
 		CE8E80DA27022E4300AE066D /* RoadSigns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadSigns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8E80DD27022E4300AE066D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE8E80DE27022E4300AE066D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -161,6 +164,8 @@
 			children = (
 				CE8E80FF2702452700AE066D /* RoadSignsService.h */,
 				CE8E81002702452700AE066D /* RoadSignsService.m */,
+				CE7027D9270ADF4D0039E8EB /* RoadSignsServiceProxy.h */,
+				CE7027DA270ADF4D0039E8EB /* RoadSignsServiceProxy.m */,
 				CE0F57612709D4A0003FEAD6 /* CheckServer.swift */,
 			);
 			path = Services;
@@ -258,6 +263,7 @@
 			files = (
 				CE8E80FD2702328700AE066D /* RSRoadSign.m in Sources */,
 				CE8E80E527022E4300AE066D /* RSListController.m in Sources */,
+				CE7027DB270ADF4D0039E8EB /* RoadSignsServiceProxy.m in Sources */,
 				CEC883EC2704709F008A1525 /* RoadSignsListPresenter.m in Sources */,
 				CEC883EF27047E92008A1525 /* RSDetailController.m in Sources */,
 				CE8E80DF27022E4300AE066D /* AppDelegate.m in Sources */,
