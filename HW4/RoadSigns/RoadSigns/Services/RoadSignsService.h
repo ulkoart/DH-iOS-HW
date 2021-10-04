@@ -10,7 +10,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RoadSignsService : NSObject
+@protocol RoadSignsServiceProtocol <NSObject>
+
+@required
+- (NSArray<RSRoadSign *> *) getRoadSigns;
+
+@end
+
+@interface RoadSignsService : NSObject<RoadSignsServiceProtocol>
 
 - (NSArray<RSRoadSign *> *) getRoadSigns;
 

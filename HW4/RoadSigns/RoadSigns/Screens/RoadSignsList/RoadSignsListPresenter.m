@@ -8,6 +8,7 @@
 #import "RoadSignsListPresenter.h"
 #import <UIKit/UIKit.h>
 #import "RoadSignsService.h"
+#import "RoadSignsServiceProxy.h"
 #import "RSListController.h"
 
 @implementation RoadSignsListPresenter
@@ -15,12 +16,12 @@
 - (instancetype)initWithView:(RSListController *)view {
     self = [super init];
     self.view = view;
-    self.roadSignsService = [[RoadSignsService alloc] init];
+    self.roadSignsServiceProxy = [[RoadSignsServiceProxy alloc] initWithRoadSignsService:[[RoadSignsService alloc] init]];
     return self;
 }
 
 - (void)loadDataWithComplition:(void(^)(NSUInteger)) complition {
-    NSArray<RSRoadSign *> * soadSigns = [self.roadSignsService getRoadSigns];
+    NSArray<RSRoadSign *> * soadSigns = [self.roadSignsServiceProxy getRoadSigns];
     self.view.roadSigns = soadSigns;
     complition(soadSigns.count);
 }
