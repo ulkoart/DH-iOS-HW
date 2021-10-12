@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct Movie:Codable {
+struct Movie: Codable {
     let title: String
     let image: String
+    let year: Int
+    let country: String
+    let genre: [String]
+    let rating: Double
 }
