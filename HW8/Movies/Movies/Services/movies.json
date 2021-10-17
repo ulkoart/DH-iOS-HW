@@ -1,0 +1,212 @@
+[
+  {
+    "title": "Терминатор",
+    "image": "terminator",
+    "year": 1984,
+    "country": "США",
+    "genre": [
+      "фантастика",
+      "боевик"
+    ],
+    "rating": 8,
+    "director": "Джеймс Кэмерон",
+    "movieOperator": "Адам Гринберг",
+    "budget": "$6 400 000",
+    "worldwideFees": "$78 371 200",
+    "worldPremiere": "26 октября 1984",
+    "recommendations": [
+      {
+        "title": "Робокоп",
+        "image": "robo_cop"
+      },
+      {
+        "title": "Хищник",
+        "image": "predator"
+      },
+      {
+        "title": "Рэмбо: Первая кровь",
+        "image": "first_blood"
+      },
+      {
+        "title": "Коммандос",
+        "image": "commando"
+      },
+      {
+        "title": "Самоволка",
+        "image": "lionheart"
+      },
+      {
+        "title": "Рокки",
+        "image": "rocky"
+      }
+    ]
+  },
+  {
+    "title": "Терминатор 2: Судный день",
+    "image": "terminator2",
+    "year": 1991,
+    "country": "США",
+    "genre": [
+      "фантастика",
+      "боевик"
+    ],
+    "rating": 8.3,
+    "director": "Джеймс Кэмерон",
+    "movieOperator": "Адам Гринберг",
+    "budget": "$102 000 000",
+    "worldwideFees": "$204 843 345",
+    "worldPremiere": "1 июля 1991",
+    "recommendations": [
+      {
+        "title": "Робокоп",
+        "image": "robo_cop"
+      },
+      {
+        "title": "Хищник",
+        "image": "predator"
+      },
+      {
+        "title": "Рэмбо: Первая кровь",
+        "image": "first_blood"
+      },
+      {
+        "title": "Коммандос",
+        "image": "commando"
+      },
+      {
+        "title": "Самоволка",
+        "image": "lionheart"
+      },
+      {
+        "title": "Рокки",
+        "image": "rocky"
+      }
+    ]
+  },
+  {
+    "title": "Воздушная тюрьма",
+    "image": "con_air",
+    "year": 1997,
+    "country": "США",
+    "genre": [
+      "боевик",
+      "криминал"
+    ],
+    "rating": 7.6,
+    "director": "Саймон Уэст",
+    "movieOperator": "Дэвид Тэттерсолл",
+    "budget": "$75 000 000",
+    "worldwideFees": "$224 012 234",
+    "worldPremiere": "2 июня 1997",
+    "recommendations": [
+      {
+        "title": "Робокоп",
+        "image": "robo_cop"
+      },
+      {
+        "title": "Хищник",
+        "image": "predator"
+      },
+      {
+        "title": "Рэмбо: Первая кровь",
+        "image": "first_blood"
+      },
+      {
+        "title": "Коммандос",
+        "image": "commando"
+      },
+      {
+        "title": "Самоволка",
+        "image": "lionheart"
+      },
+      {
+        "title": "Рокки",
+        "image": "rocky"
+      }
+    ]
+  },
+  {
+    "title": "Скалолаз",
+    "image": "cliffhanger",
+    "year": 1993,
+    "country": "США",
+    "genre": [
+      "боевик",
+      "триллер"
+    ],
+    "rating": 7.3,
+    "director": "Ренни Харлин",
+    "movieOperator": "Алекс Томсон",
+    "budget": "$70 000 000",
+    "worldwideFees": "$255 000 211",
+    "worldPremiere": "20 мая 1993",
+    "recommendations": [
+      {
+        "title": "Робокоп",
+        "image": "robo_cop"
+      },
+      {
+        "title": "Хищник",
+        "image": "predator"
+      },
+      {
+        "title": "Рэмбо: Первая кровь",
+        "image": "first_blood"
+      },
+      {
+        "title": "Коммандос",
+        "image": "commando"
+      },
+      {
+        "title": "Самоволка",
+        "image": "lionheart"
+      },
+      {
+        "title": "Рокки",
+        "image": "rocky"
+      }
+    ]
+  },
+  {
+    "title": "Крепкий орешек",
+    "image": "die_hard",
+    "year": 1988,
+    "country": "США",
+    "genre": [
+      "боевик",
+      "триллер"
+    ],
+    "rating": 8.0,
+    "director": "Джон МакТирнан",
+    "movieOperator": "Ян де Бонт",
+    "budget": "$28 000 000",
+    "worldwideFees": "$140 767 956",
+    "worldPremiere": "12 июля 1988",
+    "recommendations": [
+      {
+        "title": "Робокоп",
+        "image": "robo_cop"
+      },
+      {
+        "title": "Хищник",
+        "image": "predator"
+      },
+      {
+        "title": "Рэмбо: Первая кровь",
+        "image": "first_blood"
+      },
+      {
+        "title": "Коммандос",
+        "image": "commando"
+      },
+      {
+        "title": "Самоволка",
+        "image": "lionheart"
+      },
+      {
+        "title": "Рокки",
+        "image": "rocky"
+      }
+    ]
+  }
+]
