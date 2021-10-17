@@ -9,6 +9,8 @@ import UIKit
 
 class MovieCollectionViewCell: UICollectionViewCell {
     
+     static let reuseIdentifier = "movieCollectionControllerCellId"
+    
     private let imageView: UIImageView = {
         let iv = UIImageView()
 
@@ -19,15 +21,14 @@ class MovieCollectionViewCell: UICollectionViewCell {
         iv.layer.cornerRadius = 8
         iv.clipsToBounds = true
         iv.contentMode = .scaleToFill
+        iv.translatesAutoresizingMaskIntoConstraints = false
         return iv
     }()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        imageView.translatesAutoresizingMaskIntoConstraints = false
         addSubview(imageView)
-        
         NSLayoutConstraint.activate([
             imageView.topAnchor.constraint(equalTo: topAnchor),
             imageView.leadingAnchor.constraint(equalTo: leadingAnchor),
@@ -44,8 +45,8 @@ class MovieCollectionViewCell: UICollectionViewCell {
         super.layoutSubviews()
         
         self.layer.cornerRadius = 3
-        self.layer.shadowRadius = 7
-        layer.shadowOpacity = 0.5
+        self.layer.shadowRadius = 2
+        layer.shadowOpacity = 0.2
         layer.shadowOffset = CGSize(width: 3, height: 5)
         self.clipsToBounds = false
     }

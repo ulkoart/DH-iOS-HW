@@ -14,4 +14,16 @@ struct Movie: Codable {
     let country: String
     let genre: [String]
     let rating: Double
+    
+    let director: String
+    let movieOperator: String
+    let budget: String
+    let worldwideFees: String
+    let worldPremiere: String
+    let recommendations: [Recommendation]
+}
+
+struct Recommendation: Codable {
+    let title: String
+    let image: String
 }

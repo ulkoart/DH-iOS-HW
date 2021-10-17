@@ -15,7 +15,6 @@ final class MovieListController: UIViewController {
     private let mainStackView: UIStackView = {
         let stackView = UIStackView()
         stackView.translatesAutoresizingMaskIntoConstraints = false
-        // stackView.backgroundColor = .red
         stackView.axis = .vertical
         // stackView.alignment = .fill
         // stackView.distribution = .fillEqually
@@ -31,7 +30,7 @@ final class MovieListController: UIViewController {
     }
     
     private func setupUI() {
-        title = "Фильмы"
+        title = "Боевики 90х"
         view.backgroundColor = .white
         
         // MARK: - setup mainStackView

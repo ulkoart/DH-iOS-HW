@@ -15,7 +15,7 @@ final class MovieCollectionController: UICollectionViewController {
     
     weak var delegate: MovieCollectionDelegate?
     
-    private let cellId = "MovieCollectionControllerCellId"
+    
     private var movies = [Movie]() {
         didSet {
             guard
@@ -47,7 +47,7 @@ final class MovieCollectionController: UICollectionViewController {
         super.viewDidLoad()
         collectionView.showsHorizontalScrollIndicator = false
         collectionView.backgroundColor = .white
-        collectionView.register(MovieCollectionViewCell.self, forCellWithReuseIdentifier: cellId)
+        collectionView.register(MovieCollectionViewCell.self, forCellWithReuseIdentifier: MovieCollectionViewCell.reuseIdentifier)
         
         MovieService.shared.getMovies() { [weak self] movies in
             guard let movies = movies else { return }
@@ -60,7 +60,7 @@ final class MovieCollectionController: UICollectionViewController {
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! MovieCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MovieCollectionViewCell.reuseIdentifier, for: indexPath) as! MovieCollectionViewCell
         let movie = movies[indexPath.item]
         cell.configure(with: movie)
         return cell
